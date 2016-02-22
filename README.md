@@ -101,9 +101,6 @@ ABC-XXX #closed
 - **refactor**: `refactor(MessageService): change message generation process`
     > A change for better readablilty (Don't add feature or fix bug)
 
-- **performance**: `perf(UrlGenerator): Replace libA for libB`
-    > Should represent a performance improvement
-
 - **test**: `test(MessageService): Implement message service test for GET request`
     > Should represent a test implementation
 
