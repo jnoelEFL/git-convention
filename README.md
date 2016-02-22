@@ -86,6 +86,9 @@ ABC-XXX #closed
 - **feature**: `feat(ApiController): Add post method for feature A`
     > Should represent a feature commit
 
+- **improvement**: `imp(ApiController): Upgraded the library to improve error handling`
+    > Should represent an improvement over an existing feature
+
 - **fix**: `fix(MessageService): fix wrong status code on GET request`
     > Should represent a bug fix
 
