@@ -124,7 +124,7 @@ ABC-XXX #closed
     ```
 ### Bookmarklet
 ```javascript
-javascript:(function() {var e = document.getElementById('pull_request_body');if (e) {e.value += '#### What\'s this PR pupose?\n> Ticket link []()\n\n DESCRIPTION\n#### PR Dependencies\n#XXX\n#XXX';}})();
+javascript:(function() {var e = document.getElementById('pull_request_body');if (e) {e.value += '#### What\'s this PR purpose?\n> Ticket link []()\n\n DESCRIPTION\n#### PR Dependencies\n#XXX\n#XXX';}})();
 ```
 
 ## <a name='tips-tricks'>Tips and tricks</a>
