@@ -114,14 +114,14 @@ ABC-XXX #closed
 - Use a title like: `ABC-XXX Some awesome description`
 - Use a template for PR description:
 
-    ```
-        #### What's this PR purpose?
-        > Ticket link [#XXXX](url)
+ ```
+ #### What's this PR purpose?
+ > Ticket link [#XXXX](url)
 
-        Little description
-        #### PR Dependencies
-        #XXX
-    ```
+ Little description
+ #### PR Dependencies
+ #XXX
+```
 ### Bookmarklet
 ```javascript
 javascript:(function() {var e = document.getElementById('pull_request_body');if (e) {e.value += '#### What\'s this PR purpose?\n> Ticket link []()\n\n DESCRIPTION\n#### PR Dependencies\n#XXX\n#XXX';}})();
